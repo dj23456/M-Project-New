@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+
+    <div class="main">
+        <!-- Sing in  Form -->
+            <section class="sign-in">
+                <div class="container">
+                    <div class="signin-content">
+                        <div class="signin-image">
+                            <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                            <a href="signup.html" class="signup-image-link" id="sign-up">Create an account</a>
+                        </div>
+                        <div class="signin-form">
+                            <form method="POST" class="register-form" id="signin-form">
+                                <h1 class="form-title">Sign in</h1>
+                                <div class="form-group">
+                                    <label for="your_name"><i class="fa fa-envelope" style="font-size:25px"></i></label>
+                                    <input type="email" name="your_name" class="your_name" id="email" size="45" placeholder="Your Mail" required/>
+                                </div><br></br>
+                                <div class="form-group">
+                                <label for="your_pass"><i class="fa fa-lock" style="font-size: 25px;"></i></label>
+                                    <input type="password" name="your_pass" class="your_password" id="password" size="45" placeholder="Password" required/>
+                                </div><br></br><br></br>
+                                <div class="form-group form-button">
+                                    <input type="submit"  name="signin" id="signin" class="form-submit" value="Sign in"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
